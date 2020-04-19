@@ -1,0 +1,19 @@
+{
+  "name": "xeweb/goc",
+  "description": "Good old criminals plugin",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tim Van Onckelen",
+      "email": "tim@xeweb.be"
+    }
+  ], "autoload": {
+  "psr-4": {
+    "Xe_GOC\\":"inc/"
+  }
+},
+  "require": {
+    "ext-sodium": "*"
+  }
+}

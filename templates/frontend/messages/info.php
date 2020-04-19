@@ -1,1 +1,1 @@
-<p><b><?php echo $message; ?></b></p>
+<div class="notification" style="background-color: #8b999a;"><b><?php echo $this->message; ?></b></div>

@@ -20,5 +20,6 @@ Roadmap
 * Group crimes
 * Respect
 * Protection
+* Messages
 * Market
 * Chat

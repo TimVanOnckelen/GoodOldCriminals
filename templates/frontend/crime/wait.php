@@ -1,1 +1,1 @@
-<p><?php echo $this->m; ?></p>
+<div class="notification is-info"><?php echo $this->m; ?></div>

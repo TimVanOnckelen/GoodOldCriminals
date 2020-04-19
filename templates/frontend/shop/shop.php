@@ -1,3 +1,4 @@
+<div class="columns is-multiline">
 <?php
 
 /*
@@ -16,3 +17,4 @@ foreach($this->items as $i){
 
 }
 ?>
+</div>
