@@ -24,6 +24,9 @@ use Xe_GOC\Inc\Models;
 use Xe_GOC\Inc\Models\Frontend\CriminalUser;
 
 
+/**
+ * Main GOC class
+ */
 class main {
 
 	// Define Hooks

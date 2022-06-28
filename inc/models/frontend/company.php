@@ -72,6 +72,7 @@ class Company {
 			return $this->owner;
 		}
 
+
 		// Get owner from meta
 		$owner = get_post_meta($this->id,self::getMetaKey("owner")."_location_".$this->location,true);
 

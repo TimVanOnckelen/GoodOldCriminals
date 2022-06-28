@@ -55,7 +55,7 @@ function Xe_Goc_autoloader( $class_name ) {
 				$file_name = "interface-$interface_name.php";
 
 			} else {
-				$file_name = "class-$current.php";
+				$file_name = "$current.php";
 			}
 		} else {
 			$namespace = '/' . $current . $namespace;

@@ -4,7 +4,7 @@ use Xe_GOC\Inc\Models\Frontend\DealersGoOut;
 <a href="<?php echo home_url('regular-crime')?>">
 	<?php echo '<b>'.__("Gemakkelijke misdaad","xe_goc").'</b>'; ?>:
 	<?php
-	echo do_shortcode("[goc_crime_timer id='25']");
+	echo do_shortcode("[goc_crime_timer id='4']");
 	?>
 </a> -
 <a href="<?php echo home_url('moeilijke-misdaad')?>">

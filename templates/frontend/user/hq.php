@@ -62,15 +62,15 @@
             </tr>
             <tr>
                 <td>Misdaad pogingen</td>
-                <td><?php echo $this->user->getUserMeta('25_goc_crime_data',true)["trys"]; ?></td>
+                <td><?php if($this->user->getUserMeta('4_goc_crime_data',true)["trys"]){ echo $this->user->getUserMeta('4_goc_crime_data',true)["trys"]; }; ?></td>
             </tr>
             <tr>
                 <td>Moeilijke misdaad pogingen</td>
-                <td><?php echo $this->user->getUserMeta('26_goc_crime_data',true)["trys"]; ?></td>
+                <td><?php if($this->user->getUserMeta('9_goc_crime_data',true)["trys"]){ echo $this->user->getUserMeta('9_goc_crime_data',true)["trys"]; } ?></td>
             </tr>
             <tr>
                 <td>Auto steel pogingen</td>
-                <td><?php echo $this->user->getUserMeta('27_goc_crime_data',true)["trys"]; ?></td>
+                <td><?php if($this->user->getUserMeta('10_goc_crime_data',true)["trys"]){  echo $this->user->getUserMeta('10_goc_crime_data',true)["trys"]; } ?></td>
             </tr>
             </tbody>
         </table>

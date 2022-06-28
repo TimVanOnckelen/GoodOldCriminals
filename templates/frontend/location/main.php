@@ -1,5 +1,5 @@
-<div id="map-europe">
-    <ul class="europe">
+<div id="map-europe"> <!--   -->
+    <ul class="europe"><!--   -->
 
         <?php
             $criminal = new \Xe_GOC\Inc\Models\Frontend\CriminalUser();

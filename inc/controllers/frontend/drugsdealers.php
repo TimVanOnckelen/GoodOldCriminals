@@ -51,7 +51,7 @@ class Drugsdealers {
 			$temp->hook    = $this->hook;
 			$temp->location = new \Xe_GOC\Inc\Models\Frontend\location($c->getLocation());
 			$temp->dg      = $dg;
-			$temp->company = new \Xe_GOC\Inc\Models\Frontend\Company( 3784 ); // Set company to drug lab :)
+			$temp->company = new \Xe_GOC\Inc\Models\Frontend\Company( 46 ); // Set company to drug lab :)
 			// Display the template
 			return $temp->display( 'frontend/dealers/main.php' );
 		}else{

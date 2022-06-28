@@ -34,7 +34,7 @@ define('XE_GOC_TABLE_DUOCRIME','goc_duocrime');
 define('XE_GOC_MESSAGES_TABLE','goc_messages');
 
 // Include the autoloader so we can dynamically include the rest of the classes.
-require_once( trailingslashit( dirname( __FILE__ ) ) . 'vendor/autoload.php' );
+require_once('inc/autoloader.php' );
 
 // init class
 add_action('plugins_loaded',"xe_goc_load_plugin");

@@ -13,7 +13,7 @@ class CriminalUser {
 	private $total_power = 0;
 	private $cash = 5000;
 	private $bank = 10000;
-	private $location = 3622; // standard location :)
+	private $location = 50; // standard location :)
 	private $traveltime = 0;
 	private $total_xp = 0;
 	private $db_table_power = XE_GOC_TABLE_POWER;

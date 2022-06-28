@@ -8,11 +8,13 @@
       "name": "Tim Van Onckelen",
       "email": "tim@xeweb.be"
     }
-  ], "autoload": {
-  "psr-4": {
-    "Xe_GOC\\":"inc/"
-  }
-},
+  ],
+  "autoload": {
+    "psr-4": {
+      "Xe_GOC\\": "inc/",
+      "": "inc/"
+    }
+  },
   "require": {
     "ext-sodium": "*"
   }
